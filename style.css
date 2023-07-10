@@ -1,0 +1,123 @@
+body {
+  background-image: url("https://i.ibb.co/HtfMdJS/bg.webp");
+  margin: 0;
+  padding: 0;
+  height: 110vh;
+}
+
+header {
+  color: white;
+  padding: 20px;
+  font-size: 1.5rem;
+  font-family: cursive;
+  position: sticky;
+  top: 0;
+}
+
+.logobox {
+  /* border: 2px solid red; */
+  display: inline-block;
+  width: 220px;
+  font-size: larger;
+  font-weight: 600;
+  weight: 600;
+  font-family: cursive;
+  transition: transform 0.5s ease;
+}
+.logobox:hover {
+  color: salmon;
+  transform: scale(0.9);
+}
+.navbox {
+  width: 600px;
+  position: absolute;
+  right: 10px;
+  display: inline-block;
+  font-family: cursive;
+}
+
+.navbox > a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbox > a:hover {
+  color: salmon;
+}
+
+.heading {
+  font-size: 3.5rem;
+  color: salmon;
+  font-family: cursive;
+  /* border: 2px solid white; */
+  width: 700px;
+  position: relative;
+  /* top: 20px; */
+  left: 70px;
+}
+
+.heading + h3 {
+  color: white;
+  font-family: cursive;
+  font-size: 3.5rem;
+  position: relative;
+  width: 500px;
+  left: 70px;
+  top: -20px;
+}
+}
+.fa-solid {
+  padding: 10px;
+}
+
+.heading h3,
+a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.heading + h3 + p {
+  color: white;
+  font-family: cursive;
+  width: 600px;
+  position: relative;
+  left: 70px;
+  word-spacing: 4px;
+  font-size: 1.5rem;
+  top: -46px;
+}
+
+.btn {
+  width: 160px;
+  padding: 15px;
+  border: 2px solid salmon;
+  background-color: salmon;
+  color: rgb(24, 23, 23);
+  font-family: cursive;
+  position: relative;
+  top: -30px;
+  left: 70px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 40px;
+  transition: transform 0.5s ease;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0);
+  transform: scale(1.1);
+  color: seashell;
+}
+
+footer {
+  color: white;
+  font-family: cursive;
+  font-size: 0.9rem;
+  scroll-behavior: smooth;
+  bottom: 10px;
+  position: fixed;
+}
